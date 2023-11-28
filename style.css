@@ -1,29 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Phantomsans&display=swap');
 
-html,body{
+
+html,body
+{
+    font-family: "Montserrat", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: white;
+    color: black;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
 
+.dark-mode {
+    background-color: #232931;
+    color: white;
+
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
 
 header{
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(45,112,170,1) 50%, rgba(0,212,255,1) 100%); 
+background-color: #122338;
 }
-.navbar-brand img{
-    width: 291.11px;
-    height: 39.27px;
-}
+
 h1{
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 80px;
+    
 }
 
 h5{
@@ -31,11 +43,11 @@ h5{
 }
 
 .nike{
-    color: #FA804C;
+    color: #faee4c;
 }
 
 .infinity{
-    color: #363958;
+    color: #db4b63;
 }
 
 .btn {
@@ -64,6 +76,10 @@ h5{
     cursor: pointer;
   }
 
+.btn1 {
+
+}
+
 .btn:active,
 .btn:hover {
     outline: 0;
@@ -83,7 +99,7 @@ h5{
   }
 
 .card img{
-    background-color: #F1F1F1;
+    background-color: #030303;
     border-radius: 10px;
 }
 .price{
@@ -101,7 +117,15 @@ h5{
 }
 
 
+
+
 @media only screen and (max-width: 688px){
+    .logg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
 
     h1{
         font-size: 60px;
