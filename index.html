@@ -42,7 +42,7 @@
                             <a class="nav-link" href="#">TENTANG KAMI</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#">HUBUNGI KAMI</a>
+                            <a class="nav-link" href="https://bit.ly/tejamaya-wa">HUBUNGI KAMI</a>
                         </li>
 
                     </ul>
@@ -51,24 +51,17 @@
         </nav>
         <!-- Top Navigation Ends -->
 
-
         <!-- First Atrraction Starts -->
         <div class="container pb-5 mb-5">
 
             <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center justify-content-between">
-                <!-- <img class="order-2 order-md-1" src="assets/icon.png" alt=""> -->
+                <img class="logg" src="assets/logo.gif" alt="" style="width:100%;max-width:250px">
                 <div class="order-1 order-md-2 col-md-5">
                     <h1>
                         <span class="nike">TEJAMAYA SHOP</span>
                         <br>
-                        <span class="infinity">INDONESIA MAJU</span>
+                        <span class="infinity">MENYEDIAKAN PRODUK UNTUK ANDA</span>
                     </h1>
-
-                    <!-- <p class="w-75">Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry.</p> -->
-                    <!-- <button type="button" class="btn rounded-3 text-white px-4 py-2">
-                        <i class="fas fa-shopping-cart pe-1"></i>BELANJA SEKARANG
-                    </button> -->
                 </div>
             </div>
 
@@ -81,7 +74,7 @@
     <main>
         <!-- Casual Shoes -->
         <section class="container mb-5">
-            <h3 class="title mb-4">CASUAL SHOES</h3>
+            <h3 class="title mb-4">MAKE UP DAN KOSMETIK</h3>
 
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
                 <div class="col">
@@ -97,7 +90,7 @@
                                         </span>
                                 </button>
                             </div> -->
-                            <button class="btn" type="button">
+                            <button onclick="window.location.href='https://kodekreasi.com'" class="btn" type="button">
                                 <span class="text">BELI SEKARANG</span>
                             </button>
                         </div>
@@ -116,7 +109,7 @@
                                     <i class="fas fa-shopping-cart pe-1"></i> BUY NOW
                                 </button>
                             </div> -->
-                            <button class="btn" type="button">
+                            <button onclick="window.location.href='https://kodekreasi.com'" class="btn" type="button">
                                 <span class="text">BELI SEKARANG</span>
                             </button>
                         </div>
@@ -135,7 +128,7 @@
                                     <i class="fas fa-shopping-cart pe-1"></i> BUY NOW
                                 </button>
                             </div> -->
-                            <button class="btn" type="button">
+                            <button onclick="window.location.href='https://kodekreasi.com'" class="btn" type="button">
                                 <span class="text">BELI SEKARANG</span>
                             </button>
                         </div>
@@ -149,7 +142,7 @@
 
         <!-- Formal SHOES -->
         <section class="container mb-5">
-            <h3 class="title mb-4">FORMAL SHOES</h3>
+            <h3 class="title mb-4">PAKAIAN WANITA</h3>
 
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
                 <div class="col">
@@ -165,7 +158,7 @@
                                     <i class="fas fa-shopping-cart pe-1"></i> BUY NOW
                                 </button>
                             </div> -->
-                            <button class="btn" type="button">
+                            <button onclick="window.location.href='https://kodekreasi.com'" class="btn" type="button">
                                 <span class="text">BELI SEKARANG</span>
                             </button>
                         </div>
@@ -184,7 +177,7 @@
                                     <i class="fas fa-shopping-cart pe-1"></i> BUY NOW
                                 </button>
                             </div> -->
-                            <button class="btn" type="button">
+                            <button onclick="window.location.href='https://kodekreasi.com'" class="btn" type="button">
                                 <span class="text">BELI SEKARANG</span>
                             </button>
                         </div>
@@ -203,7 +196,7 @@
                                     <i class="fas fa-shopping-cart pe-1"></i> BUY NOW
                                 </button>
                             </div> -->
-                            <button class="btn" type="button">
+                            <button onclick="window.location.href='https://kodekreasi.com'" class="btn" type="button">
                                 <span class="text">BELI SEKARANG</span>
                             </button>
                         </div>
@@ -213,6 +206,32 @@
             </div>
 
         </section>
+
+      <!-- ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+
+          <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+          <h3 id="DarkModetext">Dark Mode is OFF</h3>
+        <button onclick="darkMode()" class="btn1">Darkmode</button>
+        <button onclick="lightMode()" class="btn1">LightMode</button>
+
+        <script>
+   
+
+            function darkMode() {
+                let element = document.body;
+                let content = document.getElementById("DarkModetext");
+                element.className = "dark-mode";
+                content.innerText = "Dark Mode is ON";
+            }
+   
+            function lightMode() {
+                let element = document.body;
+                let content = document.getElementById("DarkModetext");
+                element.className = "light-mode";
+                content.innerText = "Dark Mode is OFF";
+            }
+        </script>
 
 
         <!-- Features Section 
